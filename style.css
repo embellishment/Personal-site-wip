@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(video.gif) no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.box {
+  width: 400px;
+  background-color: #252525;
+  padding: 100px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  color: white;
+  border-radius: 5%;
+}
+.box img{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px
+}
+.box h5{
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: 'Pacifico', cursive;
+  font-weight: 200;
+}
+.box p{
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.timer{
+  color: white;
+  height: 500px;
+  width: 500px;
+}
