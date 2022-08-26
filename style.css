@@ -1,19 +1,21 @@
 body {
-  margin: 0;
+  margin: 250px;
   padding: 0;
-  background: url(video.gif) no-repeat;
+  background: url(bg.gif) no-repeat;
   background-size: cover;
-  background-blend-mode: darken;
+  width: fit-content;
+  height: 100%;
+  zoom:normal;
 }
 .box {
   width: 400px;
   background-color: #252525;
   padding: 100px;
   text-align: center;
-  margin: auto;
-  margin-top: 5px;
+  margin-top:auto;
   color: white;
   border-radius: 5%;
+  margin-left: 600px;
 }
 .box img{
   border-radius: 50%;
@@ -22,22 +24,31 @@ body {
 }
 .box h1{
   font-size: 40px;
-  letter-spacing: 4px
+  letter-spacing: 1px;
+  padding: 0.1px;
+  margin: 10px;
 }
 .box h5{
   font-size: 25px;
   letter-spacing: 3px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins';
   font-weight: 200;
+  margin-top: 0.1px;
+  padding: 00.5px;
 }
 .box p{
-  text-align: justify;
+  text-align: center;
   font-size: 20px;
-
+  font-family: 'Dynapuff';
+  letter-spacing: 1px;
+  padding: 5px;
 }
 
-.timer{
-  color: white;
-  height: 500px;
-  width: 500px;
-}
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
